@@ -1,0 +1,26 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page article {
+  width: 80%;
+  margin-top: 2em;
+  font-size: 1.1em;
+  text-align: justify;
+  letter-spacing: 0.05em;
+}
+
+.home-page blockquote {
+  width: 80%;
+  margin-top: 2em;
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.home-page p {
+  letter-spacing: 0.05em;
+}

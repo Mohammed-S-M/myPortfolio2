@@ -1,0 +1,30 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-page h2 {
+  margin: 1em 0;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.contact-page p {
+  width: 80%;
+  margin-bottom: 2em;
+}
+
+.contact-page section {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-page section img {
+  width: 5em;
+  margin: 1em 0;
+}

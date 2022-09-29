@@ -1,0 +1,29 @@
+.projects-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-page h2 {
+  margin: 1em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.projects-page section {
+  width: 80%;
+}
+
+.projects-page h3 {
+  letter-spacing: 0.1em;
+}
+
+.projects-page article {
+  font-size: 1.1em;
+}
+
+.projects-page section p a {
+  color: #fff;
+  margin-left: 0.5em;
+}

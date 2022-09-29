@@ -1,0 +1,75 @@
+.skills-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-page h2 {
+  margin: 1em 0;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.skills-page section {
+  width: 80%;
+}
+
+.skills-page section img {
+  width: 3em;
+  margin: 0.5em 1em;
+}
+
+.over-shadow {
+  width: 100%;
+  min-height: 57.1em;
+  max-height: 200em;
+  position: absolute;
+  top: 0;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.2em);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.model {
+  width: 90%;
+  min-height: 30em;
+  max-height: 100em;
+
+  background-color: #fff;
+  box-shadow: 0em 0em 2em #8364e8;
+  border-radius: 0.5em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.model img {
+  width: 5em;
+}
+
+.model h3 {
+  margin: 1em 0;
+  margin-left: 0.2em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #000;
+}
+
+.model p {
+  width: 80%;
+  margin-bottom: 2em;
+  font-size: 1.1em;
+  color: #000;
+}
+
+.model .close {
+  width: 1.5em;
+  margin-left: 88%;
+  margin-top: 2%;
+}
